@@ -181,6 +181,12 @@
   .mt-\[1px\] {
     margin-top: 1px;
   }
+  .mt-\[10px\] {
+    margin-top: 10px;
+  }
+  .mt-\[15px\] {
+    margin-top: 15px;
+  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -219,6 +225,12 @@
   }
   .mr-\[100px\] {
     margin-right: 100px;
+  }
+  .mb-\[30px\] {
+    margin-bottom: 30px;
+  }
+  .mb-\[50px\] {
+    margin-bottom: 50px;
   }
   .ml-\[6px\] {
     margin-left: 6px;
@@ -289,11 +301,17 @@
   .h-\[10\] {
     height: 10;
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[180px\] {
     height: 180px;
   }
   .h-\[200px\] {
     height: 200px;
+  }
+  .h-\[240px\] {
+    height: 240px;
   }
   .h-\[300px\] {
     height: 300px;
@@ -511,6 +529,9 @@
   }
   .border-indigo-600 {
     border-color: var(--color-indigo-600);
+  }
+  .bg-\[\#141B41\] {
+    background-color: #141B41;
   }
   .bg-\[\#446DF6\] {
     background-color: #446DF6;
@@ -847,6 +868,16 @@
       height: 33;
     }
   }
+  .lg\:h-\[80px\] {
+    @media (width >= 64rem) {
+      height: 80px;
+    }
+  }
+  .lg\:h-\[100px\] {
+    @media (width >= 64rem) {
+      height: 100px;
+    }
+  }
   .lg\:h-\[200px\] {
     @media (width >= 64rem) {
       height: 200px;
@@ -1077,6 +1108,11 @@
       justify-content: space-around;
     }
   }
+  .lg\:justify-between {
+    @media (width >= 64rem) {
+      justify-content: space-between;
+    }
+  }
   .lg\:justify-center {
     @media (width >= 64rem) {
       justify-content: center;
@@ -1102,6 +1138,21 @@
       gap: 100px;
     }
   }
+  .lg\:gap-\[200px\] {
+    @media (width >= 64rem) {
+      gap: 200px;
+    }
+  }
+  .lg\:gap-\[300px\] {
+    @media (width >= 64rem) {
+      gap: 300px;
+    }
+  }
+  .lg\:gap-\[400px\] {
+    @media (width >= 64rem) {
+      gap: 400px;
+    }
+  }
   .lg\:rounded-\[10px\] {
     @media (width >= 64rem) {
       border-radius: 10px;
@@ -1121,6 +1172,16 @@
   .lg\:p-\[15px\] {
     @media (width >= 64rem) {
       padding: 15px;
+    }
+  }
+  .lg\:pl-\[10px\] {
+    @media (width >= 64rem) {
+      padding-left: 10px;
+    }
+  }
+  .lg\:pl-\[30px\] {
+    @media (width >= 64rem) {
+      padding-left: 30px;
     }
   }
   .lg\:text-center {
