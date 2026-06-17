@@ -813,6 +813,26 @@
       margin-left: 140px;
     }
   }
+  .lg\:ml-\[410px\] {
+    @media (width >= 64rem) {
+      margin-left: 410px;
+    }
+  }
+  .lg\:ml-\[420px\] {
+    @media (width >= 64rem) {
+      margin-left: 420px;
+    }
+  }
+  .lg\:ml-\[440px\] {
+    @media (width >= 64rem) {
+      margin-left: 440px;
+    }
+  }
+  .lg\:ml-\[470px\] {
+    @media (width >= 64rem) {
+      margin-left: 470px;
+    }
+  }
   .lg\:ml-\[500px\] {
     @media (width >= 64rem) {
       margin-left: 500px;
